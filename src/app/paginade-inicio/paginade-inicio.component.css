@@ -1,0 +1,32 @@
+/*! MAT-TOOALBAR*/
+
+mat-tooalbar{
+    flex: 1 1 auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 2px;
+}
+
+ul li{
+    padding: 15px;
+}
+ul li a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button{
+    width: 50px;
+    height: 20px;
+}

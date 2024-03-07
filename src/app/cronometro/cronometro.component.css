@@ -1,0 +1,62 @@
+/*! MAT-TOOALBAR*/
+
+mat-tooalbar{
+    flex: 1 1 auto;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button{
+    width: 50px;
+    height: 20px;
+}
+
+
+/* ! Estetica del cronometro */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin: 30px 30px;
+    align-items: center;
+}
+
+.bcronometor1,.bcronometor2, .bcronometor3{
+    width: 300px;
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+}
+.bcronometor1:hover,.bcronometor2:hover, .bcronometor3:hover{
+    color: red;
+}
+
+
+
+.bcronometor1{
+    background-color: #bada55;
+}
+.bcronometor2{
+    background-color: #0072ff;
+}
+.bcronometor3{
+    background-color: #49FF18;
+}
+
+span{
+    text-align: center;
+}
+
+.mostrar{
+    width: 360px;
+    height: 300px;
+    border: #0072ff solid 10px;
+}
